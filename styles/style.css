@@ -1,1 +1,46 @@
+/* Start BODY */
+body {
+    background-color: aliceblue;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding:0;
+}
+/* END BODY */
 
+/* Start debug */
+.bg-blue {
+    background-color:pink;
+}
+
+.bg-red {
+    /* background-color:#e4c7bd; */
+    background-color: pink;
+}
+
+/* END DEBUG */
+
+/*START CONTAINER */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* END CONTAINER */
+
+/*START CONTAINER FULL */
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+    background-color: whitesmoke;
+}
+/* END CONTAINER */
+
+/* START LOGO */
+.logo {
+    text-align: center;
+    
+}
+/* END LOGO */
