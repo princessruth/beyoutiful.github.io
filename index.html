@@ -18,6 +18,15 @@
         <link rel="stylesheet" type="text/css" href="latihan-css/styles/style.css">
         <!-- END CSS -->
 
+        <!--  START BOOTSTRAP CSS -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <!-- END BOOTSTRAP CSS -->
+
+        <!-- START JS -->
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+        <!-- END JS -->
+
     </head>
     <body>
         
@@ -77,11 +86,48 @@
         <!-- End Menu Primer -->
 
         <!-- Start Jumbotron -->
-        <div class="container jumbotron">
+       <div class="container jumbotron">
             <h1>Welcome to Beyoutiful</h1>
             <h3>Hey Beauties! Let us help you to beautify your beauty</h3>
         </div>
+        
         <!-- End Jumbotron -->
+
+        <!-- START SLIDER -->
+        <div class="container">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                      
+                <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item">
+                            <img src="http://placehold.it/800x400" alt="...">
+                        </div>
+                        <div class="item active">
+                            <img src="http://placehold.it/800x400" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="http://placehold.it/800x400" alt="...">
+
+                        </div>
+                    </div>
+                <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+            </div>   
+        </div>
+        <!-- END SLIDER -->
+
+        <br><br>
 
         <!-- Start Sale & Product Recommendation -->
         <div class="container">
@@ -178,6 +224,8 @@
         </div>
         <!-- End Brand Partners and Review -->
         
+        <br><br>
+
         <!-- Start Menu Sekunder -->
         <div class="container-full menu-sekunder">
             <div class="container">
