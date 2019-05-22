@@ -1,9 +1,7 @@
 /* START GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800;);
-@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
 /* END GOOGLE FONTS */
 
 /* Start BODY */
@@ -48,7 +46,7 @@ body {
     margin: 10px auto;
     overflow: auto;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: white;
 }
 /* END CONTAINER */
 
@@ -90,13 +88,13 @@ a:active {
 }
 
 .menu-primer li {
-    border-right: 1px solid whitesmoke;
+    border-right: 1px solid white;
     display: inline-block;
     margin: 0 -4px;
 }
 
 .menu-primer a {
-    color: black;
+    color: #0d0d0d;
     font-size: 13px;
     display: inline-block;
     letter-spacing: 1px;
@@ -106,13 +104,13 @@ a:active {
 
 .menu-primer a:hover {
     /* Untuk mengubah warna ketika kursor digerakkan*/
-    background-color: black;
+    background-color: #0d0d0d;
     color: #e4c7bd;
     text-decoration: none;
 }
 
 .menu-primer .active {
-    background-color: black;
+    background-color: #0d0d0d;
     color: #e4c7bd;
     text-decoration: none;
 }
@@ -154,7 +152,7 @@ h6 {
 /* START JUMBOTRON */
 .jumbotron {
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid #0d0d0d;
     border-radius: 10px;
     padding: 20px 0;
     width: 90%;
@@ -172,6 +170,56 @@ h6 {
 }
 /* END JUMBOTRON */
 
+/* START TEXT-SLIDER */
+.text-wrapper {
+  width: 50%;
+  color: #0d0d0d;
+  float: right;
+  position: relative;
+  margin-top: -500px;
+  text-align: center;
+  font-size: 45px;
+  
+}
+
+.text-wrapper h2 h3 {
+  /* text-align: right; */
+  color: #0d0d0d;
+  width: 180px;
+	position: absolute;
+	top: 200px;
+  right: 35px;
+  
+}
+/* END TEXT-SLIDER */
+
+/* START SUMMER */
+.summer {
+  text-align: center;
+  padding-top: 160px ;
+  min-height: 40vh;
+  max-height: 40vh;
+}
+
+
+.summer h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 60px;
+}
+
+.summer h2 {
+  font-size: 32px;
+}
+
+.sum-sale {
+  border-bottom: 2px solid #e4c7bd;
+  
+}
+
+/* END SUMMER */
+
+
+/* END TEXT-SLIDER */
 /* START MAIN */
 .main-home-one{
     float: left;
@@ -219,10 +267,17 @@ h6 {
 }
 /* END SIDEBAR */
 
+/* START SNIPPET-TABLE */
+.snippet-table {
+  width: 180px;
+  height:180px;
+}
+/* END SNIPPET-TABLE */
+
 /* START BOX */
 .box-heading {
     background-color: #e4c7bd;
-    border: 2px solid black;
+    border: 2px solid #0d0d0d;
     border-radius: 10px 10px 0 0;
     margin: 0;
     padding: 10px 20px;
@@ -236,7 +291,7 @@ h6 {
 
 .box-isi {
     background-color:white;
-    border: 2px solid black;
+    border: 2px solid #0d0d0d;
     border-radius: 0 0 10px 10px;
     border-top: none;
     margin: 0;
@@ -254,7 +309,7 @@ h6 {
 
 /* Start Product Table */
 .product-table {
-    border: 1px solid black;
+    border: 1px solid #0d0d0d;
     border-collapse: collapse;
     margin: auto;
     width: 100%;
@@ -280,7 +335,7 @@ text-area {
 
 input::placeholder,
 textarea::placeholder {
-    color: black;
+    color: #0d0d0d;
     font-weight: 300;
 }
 
@@ -288,9 +343,9 @@ input[type="submit"],
 .button{
     background-color: #e4c7bd;
     background-image: linear-gradient(-180deg, white 0%, white 90%);
-    border: 1px solid black;
+    border: 1px solid #0d0d0d;
     border-radius: 10px;
-    color: black !important;
+    color: #0d0d0d !important;
     font-size: 12px;
     font-weight: bold;
     margin: 5px 0;
@@ -311,9 +366,9 @@ input[type="submit"],
 
 /* START MENU SEKUNDER */
 .menu-sekunder {
-    background-color: whitesmoke;
+    background-color: white;
     /* border-bottom: 2px solid black; */
-    border-top: 2px solid black;
+    border-top: 2px solid #0d0d0d;
     overflow: auto;
     padding: 10px 0;
 }
@@ -424,15 +479,18 @@ input[type="submit"],
 
 
 /* START SLIDER (HOME) */
-
+.carousel-inner {
+  width: 100%
+}
 .carousel-inner img {
-  max-width: 90%;
+  max-width: 100%;
 
 
 }
 
 .carousel-item {
   text-align: center;
+  
 }
 /* END SLIDER (HOME) */
 
@@ -534,8 +592,8 @@ input[type="submit"],
     width: 100%;
     text-align: center;
     font-size: 16px;
-    background-color: black;
-    color: black;
+    background-color: #0d0d0d;
+    color: #0d0d0d;
     display: inline-block;
   }
   .snip1516 * {
@@ -669,7 +727,7 @@ figure.snip1524 p {
 }
 
 figure.snip1524 h2 {
-  font-family: 'Quicksand', serif;
+  font-family: 'Quicksand', sans-serif;
   display: inline-block;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -703,5 +761,140 @@ figure.snip1524.hover figcaption {
 
 
 /* END EFFECT EYE PRODUCTS */
+
+/* START EFFECT TABLE */
+.snip1255 {
+  font-family: 'Quicksand', sans-serif;
+  color: #0d0d0d;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 50px 10px 10px;
+}
+.snip1255 .plan {
+  margin: 0;
+  width: 25%;
+  position: relative;
+  float: left;
+  background-color: white;
+  border: 1px solid #f0ecec;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.snip1255 .plan:hover i,
+.snip1255 .plan.hover i {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.snip1255 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.snip1255 header {
+  position: relative;
+  background-color: #e4c7bd;
+  color: #ffffff;
+  padding: 20px 20px;
+}
+.snip1255 header i {
+  font-size: 56px;
+  margin: 8px 0;
+  color: #c0392b;
+  display: inline-block;
+}
+.snip1255 .plan-title {
+  top: 0;
+  font-weight: 500;
+  margin: 8px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.snip1255 .plan-cost {
+  margin: 8px 0;
+}
+.snip1255 .plan-price {
+  font-family:'Quicksand', sans-serif ;
+  font-weight: 800;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+.snip1255 .plan-type {
+  opacity: 0.8;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+.snip1255 .plan-features {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: outside none none;
+  font-size: 0.8em;
+}
+.snip1255 .plan-features li {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 5%;
+  font-weight: 500;
+}
+.snip1255 .plan-features li:nth-child(even) {
+  background: rgba(0, 0, 0, 0.08);
+}
+.snip1255 .plan-features i {
+  margin-right: 8px;
+  opacity: 0.4;
+}
+.snip1255 .plan-select {
+  background-color: #191919;
+}
+.snip1255 .plan-select a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px;
+  width: 100%;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.snip1255 .plan-select a:hover {
+  background-color: #262626;
+}
+.snip1255 .featured {
+  margin-top: -10px;
+  background-color: #262626;
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.snip1255 .featured .plan-select a {
+  padding: 35px 25px;
+}
+@media only screen and (max-width: 767px) {
+  .snip1255 .plan {
+    width: 50%;
+  }
+  .snip1255 .plan-title,
+  .snip1255 .plan-select a {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .snip1255 .plan-select a,
+  .snip1255 .featured .plan-select a {
+    padding: 20px;
+  }
+  .snip1255 .featured {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .snip1255 .plan {
+    width: 100%;
+  }
+}
+/* END EFECT TABLE */
 
 /* END EFFECT */
